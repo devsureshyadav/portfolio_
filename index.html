@@ -1,74 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
   -->
   <base href="/">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+ <meta charset="UTF-8">
+<meta content="IE=Edge" http-equiv="X-UA-Compatible">
 
-  <!-- Primary SEO -->
-  <title>Suresh Yadav | Full Stack Developer Portfolio</title>
-  <meta name="title" content="Suresh Yadav | Full Stack Developer Portfolio">
-  <meta name="description" content="Official portfolio of Suresh Yadav, a Full Stack developer. Explore my mobile and web application projects, technical skills, experience, achievements, and passion for creating modern digital solutions.">
-  <meta name="keywords" content="Suresh Yadav, Full Stack Developer, Portfolio, Mobile App Developer, Web Developer, Full Stack Portfolio, Dart Developer, Software Engineer, App Development, UI UX">
-  <meta name="author" content="Suresh Yadav">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
+<meta name="description" content="Official portfolio of Suresh Yadav, Flutter Developer. Explore my projects, skills, experience, achievements, and professional journey in mobile and web application development.">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Suresh Yadav | Full Stack Developer Portfolio">
-  <meta property="og:description" content="Explore the portfolio, projects, skills, experience, and achievements of Suresh Yadav, Full Stack Developer.">
-  <meta property="og:image" content="icons/Icon-512.png">
-  <meta property="og:site_name" content="Suresh Yadav Portfolio">
+<meta name="keywords" content="Suresh Yadav, Flutter Developer, Portfolio, Mobile App Developer, Web Developer, Flutter, Dart, Software Engineer, App Development">
+<meta name="author" content="Suresh Yadav">
+<meta name="robots" content="index, follow">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Suresh Yadav | Full Stack Developer Portfolio">
-  <meta name="twitter:description" content="Explore the portfolio, projects, skills, experience, and achievements of Suresh Yadav, Full Stack Developer.">
-  <meta name="twitter:image" content="icons/Icon-512.png">
+<meta property="og:title" content="Biofolio | Suresh Yadav">
+<meta property="og:description" content="Official portfolio of Suresh Yadav showcasing projects, skills, experience, and achievements.">
+<meta property="og:type" content="website">
 
-  <!-- Mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Biofolio | Suresh Yadav">
+<meta name="twitter:description" content="Official portfolio of Suresh Yadav showcasing projects, skills, experience, and achievements.">
+
+  <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
-
-  <!-- iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Suresh Yadav Portfolio">
+  <meta name="apple-mobile-web-app-title" content="Suresh Yadav's Portfolio">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://yourdomain.com/">
-
-  <!-- Manifest -->
+  <title>Suresh Yadav | Flutter Developer Portfolio</title>
   <link rel="manifest" href="manifest.json">
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Suresh Yadav",
-    "jobTitle": "Full Stack Developer",
-    "url": "https://sureshyadav.info.np/",
-    "image": "https://avatars.githubusercontent.com/u/117462201?v=4",
-    "description": "Full Stack Developer specializing in mobile and web application development.",
-    "sameAs": [
-      "https://github.com/yourusername",
-      "https://linkedin.com/in/yourusername"
-    ]
-  }
-  </script>
 </head>
-
 <body>
   <script>
     // Firebase Firestore web SDK expects `global` in some environments.
@@ -77,13 +53,14 @@
       window.global = window;
     }
   </script>
-
-  <script src="Full Stack_bootstrap.js" async></script>
-
+  <script src="flutter_bootstrap.js" async></script>
   <!--
-    You can customize the Full Stack_bootstrap.js script.
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
     For more details:
-    https://docs.Full Stack.dev/platform-integration/web/initialization
+    * https://docs.flutter.dev/platform-integration/web/initialization
   -->
 </body>
 </html>

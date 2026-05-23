@@ -1,11 +1,11 @@
 {
-    "name": "Biofolio",
-    "short_name": "Biofolio",
+    "name": "Suresh Yadav's Portfolio",
+    "short_name": "Suresh Yadav's Portfolio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Official portfolio of Suresh Yadav, Flutter Developer. Explore my projects, skills, experience, achievements, and professional journey in mobile and web application development.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
